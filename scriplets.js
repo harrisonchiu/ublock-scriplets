@@ -1,10 +1,4 @@
-/***********************/
-/* Specific Scriptlets */
-/***********************/
-
-
 /// StackexchangeBannerRemover.js
-/// alias StackexchangeBannerRemover.js
 (function() {
     "use strict";
 
@@ -21,7 +15,6 @@
 })();
 
 /// YoutubeShortsRedirector.js
-/// alias YoutubeShortsRedirector.js
 (function() {
     "use strict";
     let oldHref = document.location.href;
@@ -50,7 +43,6 @@
 })();
 
 /// OldRedditRedirector.js
-/// alias OldRedditRedirector.js
 (function() {
     "use strict";
 
