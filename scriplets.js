@@ -1,3 +1,9 @@
+/// Test.js
+(function() {
+    "use strict";
+    console.log("ASDFASDFASDFASDF");
+})();
+
 /// StackexchangeBannerRemover.js
 (function() {
     "use strict";
