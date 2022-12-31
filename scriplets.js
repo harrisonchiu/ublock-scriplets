@@ -1,10 +1,10 @@
-/// Test.js
+/// test.js
 (function() {
     "use strict";
     console.log("ASDFASDFASDFASDF");
 })();
 
-/// StackexchangeBannerRemover.js
+/// stackexchange-banner-remover.js
 (function() {
     "use strict";
 
@@ -20,7 +20,8 @@
     }
 })();
 
-/// YoutubeShortsRedirector.js
+/// youtube-shorts-redirector.js
+/// alias ysr.js
 (function() {
     "use strict";
     let oldHref = document.location.href;
@@ -48,7 +49,8 @@
     };
 })();
 
-/// OldRedditRedirector.js
+/// old-reddit-redirector.js
+/// alias orr.js
 (function() {
     "use strict";
 
