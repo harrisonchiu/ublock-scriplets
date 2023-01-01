@@ -8,7 +8,7 @@
 (function() {
     "use strict";
     window.addEventListener("load", function() {
-        if (window.location.href.includes("/www.stackoverflow.com/") || window.location.href.includes("stackexchange.com/")) {
+        if (window.location.href.includes("stackoverflow.com/") || window.location.href.includes("stackexchange.com/")) {
             const cookiesBanner = document.querySelectorAll("div[class*='js-consent-banner']");
             cookiesBanner.forEach(banner => {
                 banner.remove();
