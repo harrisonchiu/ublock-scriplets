@@ -7,13 +7,16 @@
 /// stackexchange-banner-remover.js
 (function() {
     "use strict";
-    if (window.location.href.includes("/www.stackoverflow.com/") || window.location.href.includes("stackexchange.com/")) {
-        const cookiesBanner = document.querySelectorAll("div[class*='js-consent-banner']");
-        cookiesBanner.forEach(banner => {
-            banner.remove();
-        });
-    }
+    window.addEventListener("load", function() {
+        if (window.location.href.includes("/www.stackoverflow.com/") || window.location.href.includes("stackexchange.com/")) {
+            const cookiesBanner = document.querySelectorAll("div[class*='js-consent-banner']");
+            cookiesBanner.forEach(banner => {
+                banner.remove();
+            });
+        }
+    });
 })();
+
 
 /// youtube-shorts-redirector.js
 /// alias ysr.js
