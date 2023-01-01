@@ -7,10 +7,7 @@
 /// stackexchange-banner-remover.js
 (function() {
     "use strict";
-    if (
-        window.location.href.includes("/www.stackoverflow.com/")
-        || window.location.href.includes("stackexchange.com/")
-    ) {
+    if (window.location.href.includes("/www.stackoverflow.com/") || window.location.href.includes("stackexchange.com/")) {
         const cookiesBanner = document.querySelectorAll("div[class*='js-consent-banner']");
         cookiesBanner.forEach(banner => {
             banner.remove();
@@ -50,11 +47,7 @@
 /// alias orr.js
 (function() {
     "use strict";
-    if (
-        window.location.href.includes("/www.reddit.com/")
-        && !window.location.href.includes("/www.reddit.com/gallery/")
-        && !window.location.href.includes("/www.reddit.com/poll/")
-    ) {
+    if (window.location.href.includes("/www.reddit.com/") && !window.location.href.includes("/www.reddit.com/gallery/") && !window.location.href.includes("/www.reddit.com/poll/")) {
         window.location.replace(window.location.toString().replace("/www.reddit.com/", "/old.reddit.com/"));
     }
 })();
